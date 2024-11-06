@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CountdownTimer2">
+  <grid id="27dc6" binding="mainPane" layout-manager="GridLayoutManager" row-count="4" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="746" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-13421518"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9fef" class="javax.swing.JLabel" binding="timerName">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13091529"/>
+          <font size="14"/>
+          <foreground color="-6514280"/>
+          <text value=" обратный отсчет времени"/>
+        </properties>
+      </component>
+      <vspacer id="d087">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="36944" class="javax.swing.JLabel" binding="timerWindow">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="90" style="0"/>
+          <foreground color="-14832338"/>
+          <text value="  00 : 00  "/>
+        </properties>
+      </component>
+      <component id="e3064" class="javax.swing.JButton" binding="bStop">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1718829"/>
+          <enabled value="true"/>
+          <text value="&lt;html&gt;&lt;p&gt;остановить/&lt;/p&gt;&lt;p&gt;продолжить&lt;/p&gt;&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="66f6d" class="javax.swing.JButton" binding="bSet">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12369090"/>
+          <enabled value="true"/>
+          <foreground color="-8159888"/>
+          <text value="&lt;html&gt;&lt;p&gt;задать&lt;/p&gt;&lt;p&gt;время отсчета&lt;/p&gt;&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="7269" class="javax.swing.JButton" binding="bNew">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4792589"/>
+          <text value="&lt;html&gt;&lt;p&gt;   обратный   &lt;/p&gt;&lt;p&gt;отсчет&lt;/p&gt;&lt;/html&gt;     "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
